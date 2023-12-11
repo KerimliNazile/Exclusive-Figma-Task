@@ -1,0 +1,53 @@
+.Footer{
+    background-color: black;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    
+    .footerbox1{
+
+        color: white;
+        height: 100px;
+        h3{
+            font-size: 23px;
+        }
+        .emailEnter{
+            display: flex;
+            height: 100px;
+        }
+        .input{
+            height: 35px;
+            width: 180px;
+            border: 1px solid white;
+            background-color: black;
+            
+        }
+        .iconAiOut{
+            width: 30px;
+            height: 30px;
+            color: white;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            background-color:black;
+            border: 1px solid black;
+        }
+    }
+    .footerbox2{
+        color: white;
+        height: 100px;
+    }
+    .footerbox3{
+        color: white;
+        height: 100px;
+    }
+}
+.Rimelbox{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 4vh;
+}

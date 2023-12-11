@@ -1,0 +1,51 @@
+.Footer {
+  background-color: black;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.Footer .footerbox1 {
+  color: white;
+  height: 100px;
+}
+.Footer .footerbox1 h3 {
+  font-size: 23px;
+}
+.Footer .footerbox1 .emailEnter {
+  display: flex;
+  height: 100px;
+}
+.Footer .footerbox1 .input {
+  height: 35px;
+  width: 180px;
+  border: 1px solid white;
+  background-color: black;
+}
+.Footer .footerbox1 .iconAiOut {
+  width: 30px;
+  height: 30px;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  border: 1px solid black;
+}
+.Footer .footerbox2 {
+  color: white;
+  height: 100px;
+}
+.Footer .footerbox3 {
+  color: white;
+  height: 100px;
+}
+
+.Rimelbox {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  height: 4vh;
+}/*# sourceMappingURL=footer.css.map */
