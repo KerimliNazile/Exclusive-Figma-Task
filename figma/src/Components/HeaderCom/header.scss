@@ -1,0 +1,40 @@
+.Header {
+    display: flex;
+    // border: 1px solid #D8D9DA;
+
+    .headerLeftBox {
+
+        width: 25%;
+        height: 60vh;
+        border: 1px solid #D8D9DA;
+
+    }
+
+    .fashionMain {
+
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+
+    .fashionMain li {
+        font-size: 18px;
+        margin-top: 18px;
+        list-style: none;
+    }
+
+    .headerRightBox {
+        // background-color: aqua;
+        width: 75%;
+        height: 60vh;
+        border: 1px solid #D8D9DA;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .ayfonimeyg {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

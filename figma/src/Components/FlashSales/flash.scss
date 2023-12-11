@@ -1,0 +1,23 @@
+.FlashSales{
+    padding: 90px;
+    .today{
+        display: flex;
+        gap: 10px;
+        div{
+            background-color: brown;
+            width: 20px;
+            height: 40px;
+            border-radius: 4px;
+        }
+        h4{
+            text-align: center;
+            width: 60px;
+            height: 40px;
+           color: brown;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+        }
+    }
+}
