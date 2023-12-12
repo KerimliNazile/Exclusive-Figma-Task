@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 80px;
     
     .footerbox1{
 
@@ -42,6 +42,13 @@
     .footerbox3{
         color: white;
         height: 100px;
+    }
+    .footerIcons{
+        font-size: 22px;
+        margin-top: 15px;
+        display: flex;
+        gap: 20px;
+        
     }
 }
 .Rimelbox{

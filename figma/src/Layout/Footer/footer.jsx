@@ -1,5 +1,9 @@
 import React from 'react'
 import { AiOutlineSend } from "react-icons/ai";
+import { FaFacebookF } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 import './footer.scss'
 const Footer = () => {
   return (
@@ -42,10 +46,16 @@ const Footer = () => {
           <p>Contact</p>
         </div>
         <div className='footerbox3'>
+          <div className='footerImage'>
+            <img src="../../../image/Frame 721.png" alt="" />
+          </div>
 
-          <h3>Download App</h3><br />
-          <p>Save $3 with App New User Only</p><br />
-
+          <div className='footerIcons'>
+          <FaFacebookF />
+          <FaTwitter />
+          <FaInstagram />
+          <FaLinkedinIn />
+          </div>
 
         </div>
 
