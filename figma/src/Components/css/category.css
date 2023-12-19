@@ -1,0 +1,71 @@
+#browseCategorySection {
+  padding: 0px 20px 0px 100px;
+  width: 100%;
+  height: 70vh;
+}
+#browseCategorySection .browseCategoryUpBox {
+  margin-bottom: 50px;
+  width: 100%;
+  height: 20vh;
+}
+#browseCategorySection .browseCategoryUpBox .todaysText {
+  width: 200px;
+  display: flex;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: start;
+}
+#browseCategorySection .browseCategoryUpBox .todaysText p {
+  font-size: 27px;
+  color: #DB4444;
+}
+#browseCategorySection .browseCategoryUpBox .normalBox {
+  background-color: #DB4444;
+  width: 40px;
+  height: 80px;
+  border-radius: 7px;
+}
+#browseCategorySection .browseCategoryUpBox .salesTimer {
+  display: flex;
+  font-size: 30px;
+  gap: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  justify-content: start;
+}
+#browseCategorySection .browseCategoryDownBox {
+  padding: 0px 0px 100px;
+  border-bottom: 1px solid gray;
+  cursor: pointer;
+}
+#browseCategorySection .browseCategoryDownBox .swiper {
+  width: 100%;
+  height: 230px;
+}
+#browseCategorySection .browseCategoryDownBox .swiper .swiperInBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid gray;
+  width: 100%;
+  height: 100%;
+  font-size: 80px;
+  border-radius: 5px;
+}
+#browseCategorySection .browseCategoryDownBox .swiper .swiperInBox:hover {
+  background-color: #DB4444;
+  transition: 0.5s;
+  color: white;
+}
+#browseCategorySection .browseCategoryDownBox .swiper .swiperInBox p {
+  margin-top: 10px;
+  font-size: 20px;
+}
+#browseCategorySection .browseCategoryDownBox .swiper-pagination-bullet {
+  opacity: 0;
+}/*# sourceMappingURL=category.css.map */

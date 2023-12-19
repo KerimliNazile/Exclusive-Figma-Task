@@ -1,0 +1,197 @@
+.NewArrivalArea {
+  display: flex;
+  gap: 400px;
+  height: 110vh;
+  align-items: center;
+  justify-content: center;
+}
+.NewArrivalArea .NewArrivalBox1 {
+  margin-bottom: 330px;
+  color: white;
+  /* Presentational Styles */
+}
+.NewArrivalArea .NewArrivalBox1 img {
+  position: absolute;
+  background-color: black;
+  width: 575px;
+  height: 620px;
+}
+.NewArrivalArea .NewArrivalBox1 a {
+  color: white;
+  position: relative;
+  text-decoration: none;
+}
+.NewArrivalArea .NewArrivalBox1 a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  border-radius: 2px;
+  background-color: white;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+.NewArrivalArea .NewArrivalBox1 a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+.NewArrivalArea .NewArrivalBox1 body {
+  display: grid;
+  font-family: "Poppins", sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+  height: 100vh;
+  place-items: center;
+}
+.NewArrivalArea .ArrivalText {
+  position: relative;
+  top: 400px;
+  left: 30px;
+}
+.NewArrivalArea .ArrivalText h2 {
+  font-size: 30px;
+  color: white;
+}
+.NewArrivalArea .ArrivalText a {
+  font-size: 20px;
+}
+
+.NewArrivalBox2 .NewArrivalBox2-one img {
+  position: absolute;
+  width: 480px;
+}
+.NewArrivalBox2 .NewArrivalBox2-one .ArrivalText2 {
+  position: relative;
+  color: green;
+  top: 150px;
+  left: 30px;
+  /* Presentational Styles */
+}
+.NewArrivalBox2 .NewArrivalBox2-one .ArrivalText2 p {
+  color: white;
+}
+.NewArrivalBox2 .NewArrivalBox2-one .ArrivalText2 h2 {
+  font-size: 30px;
+  color: white;
+}
+.NewArrivalBox2 .NewArrivalBox2-one .ArrivalText2 a {
+  color: #18272F;
+  position: relative;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.NewArrivalBox2 .NewArrivalBox2-one .ArrivalText2 a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  border-radius: 4px;
+  background-color: white;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+.NewArrivalBox2 .NewArrivalBox2-one .ArrivalText2 a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+.NewArrivalBox2 .NewArrivalBox2-one .ArrivalText2 body {
+  display: grid;
+  font-family: "Poppins", sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+  height: 100vh;
+  place-items: center;
+}
+
+.NewArrivalBox3-main {
+  display: flex;
+  margin-top: 250px;
+  gap: 100px;
+}
+.NewArrivalBox3-main .NewArrivalBox3-three img {
+  position: absolute;
+  background-color: black;
+  width: 230px;
+}
+.NewArrivalBox3-main .NewArrivalBox3-three .ArrivalText3 {
+  position: relative;
+  top: 150px;
+  left: 20px;
+  /* Presentational Styles */
+}
+.NewArrivalBox3-main .NewArrivalBox3-three .ArrivalText3 p {
+  color: white;
+  font-size: 14px;
+}
+.NewArrivalBox3-main .NewArrivalBox3-three .ArrivalText3 h2 {
+  color: white;
+  font-size: 22px;
+}
+.NewArrivalBox3-main .NewArrivalBox3-three .ArrivalText3 a {
+  font-size: 20px;
+  color: white;
+  position: relative;
+  text-decoration: none;
+}
+.NewArrivalBox3-main .NewArrivalBox3-three .ArrivalText3 a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  border-radius: 4px;
+  background-color: white;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+.NewArrivalBox3-main .NewArrivalBox3-three .ArrivalText3 a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+.NewArrivalBox3-main .NewArrivalBox3-three .ArrivalText3 body {
+  display: grid;
+  font-family: "Poppins", sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+  height: 100vh;
+  place-items: center;
+}
+
+.FeaturedText {
+  margin-left: 90px;
+}
+.FeaturedText .featured {
+  display: flex;
+  gap: 10px;
+}
+.FeaturedText .featured div {
+  background-color: #DB4444;
+  width: 20px;
+  height: 40px;
+  border-radius: 4px;
+}
+.FeaturedText .featured h4 {
+  text-align: center;
+  width: 70px;
+  height: 40px;
+  color: #DB4444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+}
+
+.NewArrivalText {
+  margin-left: 90px;
+  font-size: 25px;
+  margin-top: 20px;
+}/*# sourceMappingURL=arrival.css.map */

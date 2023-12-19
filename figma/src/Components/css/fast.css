@@ -1,0 +1,47 @@
+#FastandFree {
+  height: 40vh;
+}
+#FastandFree .FastFree {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin-top: 100px;
+}
+#FastandFree .FastFree .deliveryBox {
+  width: 300px;
+  height: 200px;
+  text-align: center;
+}
+#FastandFree .FastFree .deliveryBox h3 {
+  font-size: 22px;
+}
+#FastandFree .FastFree .deliveryBox p {
+  font-size: 18px;
+}
+#FastandFree .FastFree .deliveryBox .deliverygreyIcon {
+  background-color: grey;
+  width: 70px;
+  height: 70px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  margin-left: 110px;
+  margin-top: 20px;
+}
+#FastandFree .FastFree .deliveryBox .deliverygreyIcon .deliveryIcon {
+  font-size: 35px;
+  margin-top: 30px;
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  color: white;
+}
+#FastandFree .FastFree .deliveryBox .deliverygreyIcon .deliveryIcon .TbTruck {
+  margin-top: 6px;
+}/*# sourceMappingURL=fast.css.map */

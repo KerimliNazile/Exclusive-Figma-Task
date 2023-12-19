@@ -1,27 +1,234 @@
-.NewArrivalArea{
-    display: flex;
-    gap: 300px;
-    .NewArrivalBox1{
-      img{
-        position: absolute;
+.NewArrivalArea {
+  display: flex;
+  gap: 400px;
+  height: 110vh;
+  align-items: center;
+  justify-content: center;
+
+  .NewArrivalBox1 {
+    margin-bottom: 330px;
+
+    img {
+      position: absolute;
+      background-color: black;
+      width: 575px;
+      height: 620px;
+
+    }
+
+    color:white;
+
+    
+      a {
+        color:white;
+        position: relative;
+        text-decoration: none;
       }
-        color:red;
-        a{
-            color:red;
+      
+      a::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        border-radius: 2px;
+        background-color:white;
+        bottom: 0;
+        left: 0;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform .3s ease-in-out;
+      }
+      
+      a:hover::before {
+        transform-origin: left;
+        transform: scaleX(1);
+      }
+      
+      /* Presentational Styles */
+      body {
+        display: grid;
+        font-family: 'Poppins', sans-serif;
+        font-size: 27px;
+        font-weight: 700;
+        height: 100vh;
+        place-items: center;
+      }
+    }
+
+    .ArrivalText {
+      position: relative;
+      top: 400px;
+      left: 30px;
+      h2{
+        font-size: 30px;
+        color: white;
+      }
+      a{
+        font-size: 20px;
+      }
+    }
+  }
+
+  .NewArrivalBox2 {
+
+    .NewArrivalBox2-one {
+      img {
+        position: absolute;
+        width: 480px;
+      }
+
+      .ArrivalText2 {
+        position: relative;
+        color: green;
+        top: 150px;
+        left: 30px;
+        p{
+          color: white;
         }
-        .ArrivalText{
+        h2{
+          font-size: 30px;
+          color: white;
+        }
+        
+          a {
+            color: #18272F;
             position: relative;
+            text-decoration: none;
+            color: white;
+          font-size: 20px;
+          }
+          
+          a::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            border-radius: 4px;
+            background-color:white;
+            bottom: 0;
+            left: 0;
+            transform-origin: right;
+            transform: scaleX(0);
+            transition: transform .3s ease-in-out;
+          }
+          
+          a:hover::before {
+            transform-origin: left;
+            transform: scaleX(1);
+          }
+          
+          /* Presentational Styles */
+          body {
+            display: grid;
+            font-family: 'Poppins', sans-serif;
+            font-size: 27px;
+            font-weight: 700;
+            height: 100vh;
+            place-items: center;
+          }
         }
-    }
-    .NewArrivalBox2{
-    //    .NewArrivalBox2-one{
+      }
 
-    //    } 
-       .NewArrivalBox3-main{
-        display: flex;
-        // .NewArrivalBox3-three{
 
-        // }
-       }
     }
+  
+
+
+.NewArrivalBox3-main {
+  display: flex;
+  margin-top: 250px;
+  gap: 100px;
+
+  .NewArrivalBox3-three {
+    img {
+      position: absolute;
+      background-color: black;
+      width: 230px;
+    }
+
+    .ArrivalText3 {
+      position: relative;
+      top: 150px;
+      left: 20px;
+      p{
+        color: white;
+        font-size: 14px;
+      }
+      h2{
+        color: white;
+        font-size: 22px;
+      }
+      
+       
+      
+      a {
+        font-size: 20px;
+        color:white;
+        position: relative;
+        text-decoration: none;
+      }
+      
+      a::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        border-radius: 4px;
+        background-color:white;
+        bottom: 0;
+        left: 0;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform .3s ease-in-out;
+      }
+      
+      a:hover::before {
+        transform-origin: left;
+        transform: scaleX(1);
+      }
+      
+      /* Presentational Styles */
+      body {
+        display: grid;
+        font-family: 'Poppins', sans-serif;
+        font-size: 27px;
+        font-weight: 700;
+        height: 100vh;
+        place-items: center;
+      }
+    }
+  }
+}
+
+.FeaturedText {
+  margin-left: 90px;
+
+  .featured {
+    display: flex;
+    gap: 10px;
+
+    div {
+      background-color:#DB4444;
+      width: 20px;
+      height: 40px;
+      border-radius: 4px;
+    }
+
+    h4 {
+      text-align: center;
+      width: 70px;
+      height: 40px;
+      color:#DB4444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 22px;
+    }
+  }
+}
+
+.NewArrivalText {
+  margin-left: 90px;
+  font-size: 25px;
+  margin-top: 20px;
 }
