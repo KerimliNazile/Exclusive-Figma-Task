@@ -10,10 +10,6 @@ import { IoWatchOutline } from "react-icons/io5";
 import { FiCamera } from "react-icons/fi";
 import { PiHeadphones } from "react-icons/pi";
 import { LuGamepad } from "react-icons/lu";
-import { GoTools } from "react-icons/go";
-import { FaTabletAlt } from "react-icons/fa";
-import { IoMdLaptop } from "react-icons/io";
-import { MdOutlineSpeaker } from "react-icons/md";
 
 function Category() {
   return (
@@ -29,7 +25,7 @@ function Category() {
       </div>
       <div className='browseCategoryDownBox'>
         <Swiper
-          slidesPerView={6}
+          slidesPerView={5}
           spaceBetween={30}
           pagination={{
             clickable: true,

@@ -1,0 +1,35 @@
+#FounderAbout {
+    height: 60vh;
+
+    .FounderInBox {
+
+        background-color:rgb(221, 219, 219);
+        width: 300px;
+
+        h1 {
+            font-size: 28px;
+        }
+p{
+    font-size: 18px;
+}
+        img {
+            width: 250px;
+            height: 300px;
+            object-fit: cover;
+        }
+    }
+}
+
+.FounderArea {
+    width: 65%;
+
+    margin: auto;
+
+    .IconFounder {
+        gap: 10px;
+        display: flex;
+        font-size: 22px;
+
+
+    }
+}

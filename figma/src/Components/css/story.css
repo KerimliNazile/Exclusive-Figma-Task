@@ -1,0 +1,22 @@
+#OurStoryAbout {
+  height: 80vh;
+  width: 100%;
+}
+#OurStoryAbout .OurStoryArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+#OurStoryAbout .OurStoryArea .OurStoryLeft {
+  margin-left: 20px;
+}
+#OurStoryAbout .OurStoryArea .OurStoryLeft .OurStoryText h1 {
+  font-size: 50px;
+}
+#OurStoryAbout .OurStoryArea .OurStoryLeft .OurStoryText p {
+  font-size: 19px;
+}
+#OurStoryAbout .OurStoryArea .OurStoryRight img {
+  width: 800px;
+}/*# sourceMappingURL=story.css.map */
