@@ -1,0 +1,47 @@
+#MusicExperience {
+    padding: 100px 0;
+    width: 100%;
+
+    .MusicImageBox {
+        padding: 50px 0;
+        background-color: grey;
+        width: 70%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+
+        .MusicLeft {
+            .MusicText {
+
+                h2 {
+                    font-size: 50px;
+                    color: aliceblue;
+                }
+
+                h5 {
+                    font-size: 20px;
+                    color: rgb(48, 231, 48);
+
+                }
+
+                .Btn {
+                    width: 150px;
+                    height: 50px;
+                    border: 1px solid white;
+                    border-radius: 10px;
+                    font-size: 14px;
+                    align-items: center;
+                    margin-left: 80px;
+                    margin-top: 30px;
+
+                    &:hover {
+                        color: aliceblue;
+                        background-color: rgb(48, 231, 48);
+                        border: 1px solid rgb(48, 231, 48);
+                        transition: 0.5s;
+                    }
+                }
+            }
+        }
+    }
+}
