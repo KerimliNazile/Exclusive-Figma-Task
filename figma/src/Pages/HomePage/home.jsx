@@ -6,13 +6,19 @@ import Arrival from '../../Components/NewArrival/arrival'
 import Category from '../../Components/BrowseByCategory/category'
 import Enhance from '../../Components/EnhanceTimer/enhance'
 import Music from '../../Components/MusicExperience/music'
+import TodaysFetch from '../../Components/Todays'
+import MonthFetch from '../../Components/Month'
 
 const Home = () => {
   return (
     <div>
       <Header />
+      
       <Flash />
-      <Category />
+      <MonthFetch/>
+     
+      <Category /> 
+      <TodaysFetch/>
       <Music/>
       <Arrival />
       <FastAndFree />

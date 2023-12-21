@@ -13,7 +13,7 @@ const Flash = () => {
         </div>
         <div className='salessTimer'>
           <h1>Flash Sales</h1>
-        </div>
+        </div><br />
       </div>
       <div className='FlashRight'>
         <Enhance/>
