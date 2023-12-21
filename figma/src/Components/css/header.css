@@ -1,0 +1,80 @@
+.Header {
+  display: flex;
+}
+.Header .headerLeftBox {
+  width: 25%;
+  height: 60vh;
+  border: 1px solid #D8D9DA;
+}
+.Header .fashionMain {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.Header .fashionMain li {
+  font-size: 18px;
+  margin-top: 18px;
+  list-style: none;
+}
+.Header .headerRightBox {
+  width: 75%;
+  height: 60vh;
+  border: 1px solid #D8D9DA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Header .IphoneBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 10px 50px;
+  background-color: black;
+  height: 400px;
+  width: 80%;
+  margin: auto;
+}
+.Header .IphoneBox .IphoneLeft .iphoneTitleOne {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 30px;
+}
+.Header .IphoneBox .IphoneLeft .iphoneTitleOne .IphoneIcon {
+  font-size: 60px;
+}
+.Header .IphoneBox .IphoneLeft .iphoneTitleOne .IphoneIconText {
+  font-size: 20px;
+  width: 200px;
+}
+.Header .IphoneBox .IphoneLeft .IphoneTitleTwo {
+  font-size: 25px;
+  color: white;
+}
+.Header .IphoneBox .IphoneLeft .IphoneTitleTwo a {
+  color: white;
+  font-size: 22px;
+}
+.Header .IphoneBox .IphoneLeft .IphoneTitleTwo a:hover {
+  color: #DB4444;
+  transition: 0.5s;
+}
+.Header .IphoneBox .IphoneLeft .IphoneTitleTwo .showRight {
+  display: flex;
+  align-items: center;
+}
+.Header .IphoneBox .IphoneLeft .IphoneTitleTwo .showRight .right {
+  margin-left: 30px;
+}
+.Header .IphoneBox .IphoneLeft .IphoneTitleTwo .showRight .right:hover {
+  color: #DB4444;
+  transition: 0.5s;
+}
+.Header .IphoneRight .IphoneImage {
+  width: 550px;
+}
+.Header .IphoneRight .IphoneImage img {
+  width: 100%;
+  object-fit: cover;
+}/*# sourceMappingURL=header.css.map */
