@@ -8,6 +8,8 @@ import Enhance from '../../Components/EnhanceTimer/enhance'
 import Music from '../../Components/MusicExperience/music'
 import TodaysFetch from '../../Components/Todays'
 import MonthFetch from '../../Components/Month'
+import OurProducts from '../../Components/OurProducts'
+
 
 const Home = () => {
   return (
@@ -20,9 +22,10 @@ const Home = () => {
       <Category /> 
       <TodaysFetch/>
       <Music/>
+      <OurProducts/>
       <Arrival />
       <FastAndFree />
-
+    
 
     </div>
   )

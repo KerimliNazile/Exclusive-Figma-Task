@@ -29,7 +29,7 @@ const MonthFetch = () => {
 
                 <Swiper
                     slidesPerView={4}
-                    spaceBetween={30}
+                    spaceBetween={10}
                     pagination={{
                         clickable: true,
                     }}
