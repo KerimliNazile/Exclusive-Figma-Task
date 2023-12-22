@@ -39,7 +39,7 @@ const MonthFetch = () => {
 
                     {products.map((product, index) => (
                         <SwiperSlide >
-                            <Card id={product.id} image={product.image} name={product.name} price={product.price} noprice={product.noprice} rating={product.raiting} />
+                           <Card key={index} id={product.id} image={product.image} name={product.name} price={product.price} noprice={product.noprice} raiting={product.raiting} />
                         </SwiperSlide>
 
                     ))}

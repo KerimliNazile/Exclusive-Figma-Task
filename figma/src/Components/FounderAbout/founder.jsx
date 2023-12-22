@@ -48,8 +48,8 @@ function Founder() {
                                 <img src="https://s3-alpha-sig.figma.com/img/8438/eab9/a2fe88af0272adecd83422d0cb7e20d7?Expires=1704067200&Signature=E5MccMjv72XeK8ijLXaN5XI5tmcI~04ZhEL1EaAbck9HSms00ISO8~fr329CZfaydefkfbSvgeqln5pDBpWSLUHjGM6nIOofAwIjJDVDnuFOdUkhkyYepyYHg1oz~wcema0uSajOXKZmV0bIaLLMQjxqTDL3g4EzGnYbcy5jXll5~CV5MSRH09KC4o04qaoxARiEkrNl7GWgxA2SgVT1lF8ZXLoLAfqwip~7hzZGqG9w6j601J-VEP6ZtLv6wAn18gXSlbvhCTS2mNQ5GEfN3L86M0VsGh-haZ7hXF29ew6gEyxQypFOBf-YN~2W~C1q3YPlv0OrTyFRjS4u6BnLfw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
                             </div>
 
-                            <h1>Tom Cruise</h1>
-                            <p>Founder & Chairman</p><br />
+                            <h1>Emma Watson</h1>
+                            <p>Managing Director</p><br />
                             <div className="IconFounder">
                                 <FiTwitter />
                                 <FaInstagram />
@@ -63,8 +63,8 @@ function Founder() {
                                 <img src="../../../image/image 47.png" alt="" />
                             </div>
 
-                            <h1>Tom Cruise</h1>
-                            <p>Founder & Chairman</p><br />
+                            <h1>Will Smith</h1>
+                            <p>Product Designer</p><br />
                             <div className="IconFounder">
                                 <FiTwitter />
                                 <FaInstagram />

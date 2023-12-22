@@ -6,79 +6,84 @@
             "name": "HAVIT HV-G92 Gamepad",
             "price": 160,
             "noprice": 40,
-            "raiting": 4
+            "raiting": 5
         },
         {
             "id": 2,
             "image": "https://s3-alpha-sig.figma.com/img/e59d/9f34/8cc24eeff489863523b63971c3ff8e4a?Expires=1704067200&Signature=d4tOEBiEPjMx9GXsjNH2nMZ5W39aDoGSdiNB9wJ4mE24-kbekzDXKEMxhR1M6ikkZ7VDPIMHVxcqBfLIskq06qblGJII-4jXrhBEHq-UY~68cLOKIIsZjXtz-9sULIsW55dIqK3zYu54kYvGVE5nLXrwvObZIIgQDEVCYA4geq49eOT58GCJAVilGEGsbs3YUz4Bm6oMkHgoV~7I6JiwH8B-R54yyZM3VK4Mk-cqarxApuqUsdp96Psdpks49TRczNc9beSYMzOogfnpeVwBowLoSVgD9JZniRrIdhkEOWJWiMbGww-VuuWu2uAbPEsy10qX0wfnKyAL7N8Cjengfw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
             "name": "AK-900 Wired Keyboard",
             "price": 960,
-            "noprice": 1160,
-            "raiting": 5
+            "noprice": 10,
+            "raiting": 4
         },
         {
             "id": 3,
             "image": "https://s3-alpha-sig.figma.com/img/5e63/4682/db5174aff99bb9337d2dc9598a0b44e4?Expires=1704067200&Signature=lh~PSVZ4f5ZBRG-rmhpB1xLYGKIBAd81IXbhcYnS~V44M0jORkEENiphfnBIuZ8HN3qV~oc8qjaRcCDvVcO~aYRGbqeeooZT9qKWUVN-rREEc8qg0DIM5ezUf3SeKFoD6sQEVqlP5tIsts3Yjxd2SnADQg1yY3Kp0rdYkhYAle2g66hRUHcEY8uEc~qDbUqkwEcZWmc3fThKuaC8prsuA9tBfg4u6A7vMKcyQzwBpXCz6M1O5z7-Rsxvif~yrARPwHBT95bfLuBn56geI9UxcW1u3rxwAJ1smK~CVJ-TT9~eppiifbINmOVPVZgNEOL8CiKTcZo3sN3zAnHCb9pwdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
             "name": "IPS LCD Gaming Monitor",
             "price": 370,
-            "noprice": 400,
-            "raiting": 3
+            "noprice": 20,
+            "raiting": 5
         },
         {
             "id": 4,
             "image": "https://s3-alpha-sig.figma.com/img/288d/a330/273c46e1c3dc0a8915c4b031d0345347?Expires=1704067200&Signature=bYQ5VyUjiQj4IKJftr5DHHkLtSheBBImm8v6sSFT37zZ8RzXA09gxQ03kS0eOy~G0hKNr6jHayEJOP7n~lIM7dK1fYhQ5i-geVjSx-hFDKeipu7Zjue5NmN2QLnL90jfsSCU4mzzaW3~4WhvyJRf0L2JGwL6ctDABos6Zb6PfSHTmdjZwExQgJW84k7lalVfXipjxcBdo9DaeUf-UZ1RpBW8nBmBI8vJEjkzCpe~yVuEPVesDtP-k1DRLHcBituVcWY7hNqEOCelQese6nzadEC5PmZJjdwJIascNvoQc9EukjfWl1SBz-gK0iuasXvALeTUjKn63UMDnIzxLVdZng__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
             "name": "S-Series Comfort Chair ",
             "price": 375,
-            "noprice": 400,
-            "raiting": 5
+            "noprice": 20,
+            "raiting": 4
         },
         {
             "id": 5,
             "image": "https://dmzn2b8hkpq8b.cloudfront.net/images/products/515x515/S730122.jpg",
             "name": "S-Series Comfort Chair ",
-            "price":375,
-            "noprice": 400,
-            "raiting": 5
+            "price": 375,
+            "noprice": 30,
+            "raiting": 3
         },
         {
             "id": 6,
             "image": "https://ultimate.lk/wp-content/uploads/2022/09/asdasdawdawawdawd.jpg",
             "name": "HAVIT HV-G90 Gamepad ",
             "price": 600,
-            "noprice": 700,
-            "raiting": 5
+            "noprice": 70,
+            "raiting": 2
         }
     ],
     "products": [
         {
+            "id": 5,
             "image": "https://s3-alpha-sig.figma.com/img/ee9a/3800/1e9f94261b28e16ea21bacb4144473e8?Expires=1704067200&Signature=ED34ZR8goPzyk-7vu2kRL4JEYLhOYL8Rm0ZGfgtI-hWxZR7CvrtkLh2xsqb7RtIIomcwCpPf6-qC1akym6wd0XZCCDKkaBGUwY9ZyAqMvkZ7LyGPyBpW06fPXDKgGs-xY4mKIylkqKQ1YAt2yK51xFijrea98YDoeZpCaTqo8egieOZy2uZZm7Ttmg027BSV1YJWULEfp9wHpGmM4T5rG5zkTxsy2kFm~-bgG22fQzzktP8kykQA2rN74MRp5ZkF3jHOeMZ46fVTyLYGRkNgFkBfdGqjprjajqwiowma4yvDNHPRUQGqR7u95YT3Fpam-7zZtbeQySBSv9wzOG~a2Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
             "name": "The north coat ",
             "price": 360,
             "noprice": 40,
-            "raiting": 4
+            "raiting": 5
         },
         {
+            "id": 6,
             "image": "https://s3-alpha-sig.figma.com/img/4f3c/a1d1/2722dbdf98f25179d3c0b785988c513d?Expires=1704067200&Signature=TagMM2xhgsxgFH3zLGhOp7exjA4LQdfB1iA6GyNDn17WrJ1U-u2h-z52nnICDq8JsuibseIXJZDFUU4AAjBp-fU06cqRNX25rfW39A1s7cnrpgmlrtM3XVzbG679fnBQeMFvkHsUeEj~M5ZsknA0ksQ-xm6KmSvRpVCFM-4NPuA-EtxZseJlhN-DMp5pD91hCwr2-KAXGt3zDvZ~T~imktCgE-5OMQ0Z~Qa1th-Jq8wlUyyGKCndj4k0IvTyhRFbrVglTMzbPCzua-9DytBORnEHiDNF~gE7nhDwD61Ph67UuzC7sQnvRzUXkJQi1fPLuxi1-5MXY4ZbGzqAtvnZHQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
             "name": "Gucci duffle bag ",
             "price": 1160,
             "noprice": 35,
-            "raiting": 2
+            "raiting": 4
         },
         {
+            "id": 7,
             "image": "https://s3-alpha-sig.figma.com/img/6739/d39d/c218c97b645d616c8188a4f2e6aaf84b?Expires=1704067200&Signature=XsUeEocao4jbV~cNr1pQjXSVH4GI4C9JHqLZT3nR2bzaROdhi0Ly8Tm6kKPP0iNNsuMvhIVoBFECOe5FcBJSNWJ7mgdLFLHsPPA7T~U0fiJJ47nUZsgMOmmVkpY~4bbIlBG0c61Gv6o3dP0IsTSSCJXITmZSuYTzsTWQDAvEVl5scqstuVGeR21X15GEyPpT6oSZZs3BmZz8TGtik1wzzn-G1tPqMl2FPbXFO6AtcAZmbt3B2MIC2UY5n8Q2UIwd1y8urXbgSLOc1QTuuZ32355PEsrjKsvtzNCJLksSI~dSadMk4lPPd~MwI-1OFWOagaHP3R9hroOBSI23WRu5wA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
             "name": "RGB liquid CPU Cooler ",
             "price": 170,
             "noprice": 30,
-            "raiting": 5
+            "raiting": 4
         },
         {
+            "id": 8,
             "image": "https://s3-alpha-sig.figma.com/img/e86f/6e87/2757d20a14861e2e0ebd4e9889693f59?Expires=1704067200&Signature=IiREAxzpq6NmCGksIX2Wk9ccWKyRuZaBD34TjxupbA0qnPJzlWCZDFvlh-k0mLCSJnLWoVqrSxTtOZcoulLBsht6U7WtjQoATua5ozDN0ffuustMPQV9097dpNQtHvt5rAAEL~Wz2TT3KupgdeCWaNIAYDE2Tu2dlQ4nmtxyEKatj4PW12ZnCBsbn3QfpViuCWaUu-O634cOMRzhtNv7lU0Cprjv7Y1sWHyEftDvqiUUJP2q4cwVEtMVOLRfVN44y0DpgV0La1NpIMQd1e0W0m~9fC4q93k00h3LHCkpn11Pb4mMm0QHKF10YDn06jwLadTletx-qwAadDWiJ8zs6g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
             "name": " Small BookSelf",
             "price": 360,
             "noprice": 0,
-            "raiting": 4
+            "raiting": 5
         },
         {
+            "id": 9,
             "image": "https://s3-alpha-sig.figma.com/img/4f3c/a1d1/2722dbdf98f25179d3c0b785988c513d?Expires=1704067200&Signature=TagMM2xhgsxgFH3zLGhOp7exjA4LQdfB1iA6GyNDn17WrJ1U-u2h-z52nnICDq8JsuibseIXJZDFUU4AAjBp-fU06cqRNX25rfW39A1s7cnrpgmlrtM3XVzbG679fnBQeMFvkHsUeEj~M5ZsknA0ksQ-xm6KmSvRpVCFM-4NPuA-EtxZseJlhN-DMp5pD91hCwr2-KAXGt3zDvZ~T~imktCgE-5OMQ0Z~Qa1th-Jq8wlUyyGKCndj4k0IvTyhRFbrVglTMzbPCzua-9DytBORnEHiDNF~gE7nhDwD61Ph67UuzC7sQnvRzUXkJQi1fPLuxi1-5MXY4ZbGzqAtvnZHQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
             "name": "Gucci duffle bag ",
             "price": 360,
@@ -86,54 +91,98 @@
             "raiting": 3
         },
         {
+            "id": 10,
             "image": "https://s3-alpha-sig.figma.com/img/ee9a/3800/1e9f94261b28e16ea21bacb4144473e8?Expires=1704067200&Signature=ED34ZR8goPzyk-7vu2kRL4JEYLhOYL8Rm0ZGfgtI-hWxZR7CvrtkLh2xsqb7RtIIomcwCpPf6-qC1akym6wd0XZCCDKkaBGUwY9ZyAqMvkZ7LyGPyBpW06fPXDKgGs-xY4mKIylkqKQ1YAt2yK51xFijrea98YDoeZpCaTqo8egieOZy2uZZm7Ttmg027BSV1YJWULEfp9wHpGmM4T5rG5zkTxsy2kFm~-bgG22fQzzktP8kykQA2rN74MRp5ZkF3jHOeMZ46fVTyLYGRkNgFkBfdGqjprjajqwiowma4yvDNHPRUQGqR7u95YT3Fpam-7zZtbeQySBSv9wzOG~a2Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
             "name": "The north coat ",
             "price": 1160,
             "noprice": 35,
             "raiting": 2
         }
-      
     ],
     "explore": [
         {
+            "id": 11,
             "image": "https://s3-alpha-sig.figma.com/img/78e7/2711/8c99fe72271cf43f5e3566b39ca7c8f4?Expires=1704067200&Signature=odzyBZyRaVGR-TRECLEmUjF3x~q-zHPFs3~0xnsLSLVylSSjtonWSyXIsfF6InIjXImGdIjhbaax2M4VLMmMHplcZo5VEnC7t~DYlXQ9mslC~pDtyK3LO6h9qMVurckT-TYAWrdR1uXosk6cwqVz33yWt~QjsGD78sM0hnqGZin9jcvqyWZxkWLFI9g8i85gQZxFnjc81JKoNj8r3kc6-lQL7oh3iWaHHAkh4-cS9VWreACqGmY8RKEd~Bro7gOtvX4Ji-GyfimGuIvJoW8U6wU3iJAhjSreS-CDdiA~gweiTCRn4qpn8e8bUjkwZLr~X0KvTBqSNxl6ib8Jo7Rkjg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
             "name": " Breed Dry Dog Food",
-            "price": "$100"
+            "price": "100",
+            "noprice": 35,
+            "raiting": 3
         },
         {
+            "id": 12,
             "image": "https://s3-alpha-sig.figma.com/img/e608/92a4/f0a3d5d144dce622c7338ec5be12908f?Expires=1704067200&Signature=OnO2vLvfAsw5A0wxyg76Lhb6rL3eQ1jLspNWTYz4xzOlPeYxuGFP1~jJ9r7R1jmCYvMOlpt62C2Z7Ha3vsmIn2OyGYTZUIM8misQvAXtwjI1RQYIclttTlUeMMhaHo3HENqBIJtjq9o~Ply7hmc3M2y0S4K9yMin3-xB2KaHuJHuJPheSwiQGuGgtxhBTesYEUeXKv3wAWJXDfEoQG-qF31bvU2Z9ewX2pVktusK4~0r5xOVhlZHSyILoCQ517~HVhGRW8ly~Te6AJFlN-h3iCOiBB7K9j9kYVBvsqbNpN0yJpX9TOZU~gyRcB5Oghi1tOQpFPBZuObQxDpFqzHV1g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
             "name": " CANON EOS DSLR Camera",
-            "price": "$360"
+            "price": "360",
+            "noprice": 35,
+            "raiting": 4
         },
         {
+            "id": 13,
             "image": "https://s3-alpha-sig.figma.com/img/203b/e522/b7b02d10672f6f6147762cf52bfcfc54?Expires=1704067200&Signature=ePtNHKHFAWDh~ZVDBblV7SeQuDyuVDeMY4gQbJv~gHky4KuJkrHfaAazhGGt85B3yDz55r0PuPiqMZJ54al9DHsDiDwCy~l2GBlmqknp80JIYA6eIp2W7YRaXOBY83GPFCt4n8AfAjc8dZXmzd6EjOUUVWdJ2CksuqjKSbeKXPE~C9F1PUkl7gJsStg-wdK7K7H94Zpw8jplYonGhPBW0oqDrChiNy9iz95SuSYUsTlgged8TgbO-CsW7eZnZ1vPX-jDHVqFtXijCCSWrfkJQ7RjMlJOOYWIdKlVoe-b1TiB0e1UGTFc3KwwKWbaxZ2bbvNPGtHpfJcHMo-tpdosAQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
             "name": " ASUS FHD Gaming Laptop",
-            "price": "$700"
+            "price": "",
+            "noprice": 40,
+            
+            "raiting": 5
         },
         {
+            "id": 14,
             "image": "https://s3-alpha-sig.figma.com/img/e7bd/d116/62ea1dfc2d615a5bb054e139a764f306?Expires=1704067200&Signature=jY3mPdZoyuXr5vAMaCfYuX4PQNi8LgHEaB3ZMPGxhSMvIusAfBz8xPSH6ZejAcjKy~YEW5Xg2P0S81OxaPGTaeBWceD8G7JN067AUb7RdwwLN18tC5zN6hpL48dD2KdYsEcpS6lpAOZHKJbVXMk9txnkvl6cMajD1gxqCW84hfZ5~ksdFi1U4RpnTyDjlYDh0lMC0jJsUShN7FFcUraSfmyFntmFvojI--r~F7uM~5rzxoirDasBsyzyGckaRhBgsJakuy6Ggidn7o~8xlcZhaoxWNyg2fhwj0uWEg3x94CBsu5iN21Dh7J7p~P1Tj5aX1R7N5Wr5T0hCPvIWNk8Bw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
             "name": "Curology Product Set ",
-            "price": "$500"
+            "price": "500",
+            "noprice": 35,
+            "raiting": 4
         },
         {
+            "id": 15,
             "image": "https://s3-alpha-sig.figma.com/img/5f4e/a9ac/f805319ddf3897fc9daaf58559542260?Expires=1704067200&Signature=o-MTJjPCGsVLOU4cMyilpMkvBjQ6q8-AITTEHOJGamo8VAyvi~Js0EdmDZOSVO9EIrJToSbyBnU0lr9ShDl5GBLRXGhAkb4dNBtmJ6Ub2ibfinSF5Kg6pGVZC0JxXyFFM4d81-xN17aZfaWdB6UcyUiFNGZneSQUBD9PKYINNe8idcESHm6LxlaCH~JP3ZRcbKy9hP2QFAYX3tslAoAiHLCAFLVj7b7G0CMtvjVbEsGRiiv4ldaoygyz2vyd4lY-Ccozwfujs38PLKO3DkC5XSv6HJL8MUJ3CKIVZZk8wV494D501JsCwqv4Togsn~sHhhdFSVYi2jmeQUDZogMdxQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
             "name": "Kids Electric Car ",
-            "price": "$960"
+            "price": "$960",
+            "noprice": 35,
+            "raiting": 5
+        }
+    ],
+    "exploretwo": [
+        {
+            "id": 15,
+            "image": "https://s3-alpha-sig.figma.com/img/5f4e/a9ac/f805319ddf3897fc9daaf58559542260?Expires=1704067200&Signature=o-MTJjPCGsVLOU4cMyilpMkvBjQ6q8-AITTEHOJGamo8VAyvi~Js0EdmDZOSVO9EIrJToSbyBnU0lr9ShDl5GBLRXGhAkb4dNBtmJ6Ub2ibfinSF5Kg6pGVZC0JxXyFFM4d81-xN17aZfaWdB6UcyUiFNGZneSQUBD9PKYINNe8idcESHm6LxlaCH~JP3ZRcbKy9hP2QFAYX3tslAoAiHLCAFLVj7b7G0CMtvjVbEsGRiiv4ldaoygyz2vyd4lY-Ccozwfujs38PLKO3DkC5XSv6HJL8MUJ3CKIVZZk8wV494D501JsCwqv4Togsn~sHhhdFSVYi2jmeQUDZogMdxQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+            "name": "Kids Electric Car ",
+            "price": "960",
+            "noprice": 35,
+            "raiting": 5
         },
         {
+            "id": 16,
             "image": "https://s3-alpha-sig.figma.com/img/d0b7/bb25/884f6fdfc1357634d7d7b09e05755c2f?Expires=1704067200&Signature=V7gdkeWWjWBAKlZsWtTM8gX7O-grFMJENtqmpf6zz8Ru~bK0TlHdvmrhMRlXGMmxOfpLulDdH~OhcZ~XIlv4l4dAyjoCH8K3yg6XIHWDSp6WgU4udhsUQjMJJc8X7FTQJSf1eK7IBHZM0S5pS5hA5ee0f4h-wLVH1q~THl426hydMu5cnFSg3BFJf2YyS2jwB9k-GU6luezuWbbwkpita11LlOPZOHqBUHkd6oqmmo46mGYr5rB~oszQY2PXkx0NLdSZN3uxeGKgLisspPT5m6wo~pQ4xZuFlx9iIpXvYZij~8jvswz-D4XJevDK06y~AHxFUXzv63ylcl1Tcbrd3Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
             "name": "Jr. Zoom Soccer Cleats ",
-            "price": "$1160"
+            "price": "1160",
+            "noprice": 35,
+            "raiting": 5
         },
         {
+            "id": 17,
             "image": "https://s3-alpha-sig.figma.com/img/288e/0133/65fe639fccc1fe4168fca740ef1f85e7?Expires=1704067200&Signature=fScrVylMynHd1LO6Y~VECLzF49kWVMYrwM0Titd4xwVFbEfFqjgSAMSkU-lift5macvz6PNsaok41UncdLPXog5XDzyyDRJEqR933UHINg6e3-iXuJj9auSqlG5V68Ndc9W8WgpKogw5fnLSc58wLlq5k0WFDAP3RFXWCk6nhKC3QjxMYzOcfW0PpGMf5zvxUoxEvlW2erNu6L-~pW~BBjRtAwrg4FDetMIhZGEAKVJgg46YeQ9lDqke8edmUXGzIJmlPi0i2w9fVkit4VZUCGt08JwN711yJAJvTQNoL4LEPKq8iEzx59Xb0q0y92vI~1AuLxjUDzsuUuadFyP8ug__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
             "name": "GP11 Shooter USB Gamepad ",
-            "price": "$660"
+            "price": "660",
+            "noprice": 35,
+            "raiting": 5
         },
         {
+            "id": 18,
             "image": "https://s3-alpha-sig.figma.com/img/04a1/915f/d6cedd7c8b1073685c5f1be1b50e1ac6?Expires=1704067200&Signature=khnIBwXXWwtinxjW5APQiRFct9MdcTcwSTSddRM~pT~vmh6h4wmgGHp-teZ6Q4-VZ0ZsWf6CRmLeF1KEWZjsRMnSqth-~qqYONFB95~972XTfX0mYf7Qt94ID-yG3opBpzy6zlSYoVP0-Tl6LEK07TwoIhJ-Cqgl4LKe6Dx1lVClmEAiq80D4LCefYp2iu7fCNFEoKOjHRRfduGDPUFy-XCesvFV7PiGiRJKr8BdkPje-loqArniVKbdjeN2bos7ZQodqkGYBimizHI6sRHAbeRCsntDBz2uHCCYMLVX3FWPd~IlW8u9fLdf8SxfBoAl6Fsks0EvvycyyCETWf49LA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
             "name": "Quilted Satin Jacket",
-            "price": "$660"
+            "price": "660",
+            "noprice": 35,
+            "raiting": 4
+        },
+        {
+            "id": 19,
+            "image": "https://s3-alpha-sig.figma.com/img/e608/92a4/f0a3d5d144dce622c7338ec5be12908f?Expires=1704067200&Signature=OnO2vLvfAsw5A0wxyg76Lhb6rL3eQ1jLspNWTYz4xzOlPeYxuGFP1~jJ9r7R1jmCYvMOlpt62C2Z7Ha3vsmIn2OyGYTZUIM8misQvAXtwjI1RQYIclttTlUeMMhaHo3HENqBIJtjq9o~Ply7hmc3M2y0S4K9yMin3-xB2KaHuJHuJPheSwiQGuGgtxhBTesYEUeXKv3wAWJXDfEoQG-qF31bvU2Z9ewX2pVktusK4~0r5xOVhlZHSyILoCQ517~HVhGRW8ly~Te6AJFlN-h3iCOiBB7K9j9kYVBvsqbNpN0yJpX9TOZU~gyRcB5Oghi1tOQpFPBZuObQxDpFqzHV1g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+            "name": " CANON EOS DSLR Camera",
+            "price": "360",
+            "noprice": 35,
+            "raiting": 4
         }
+
     ]
 }

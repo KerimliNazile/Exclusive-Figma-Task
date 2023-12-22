@@ -7,15 +7,15 @@ import { IoCallOutline } from "react-icons/io5";
 import { CiMail } from "react-icons/ci";
 const SignupSchema = Yup.object().shape({
     name: Yup.string()
-        .min(2, 'Too Short!')
-        .max(50, 'Too Long!')
-        .required('Required'),
-    email: Yup.string().email('Invalid email').required('Required'),
+        .min(3, 'Min 3 characters!')
+        .max(50, 'Max 50 characters !')
+        .required('Name is required'),
+    email: Yup.string().email('Email is not correct!').required('Email is required'),
     number: Yup.string()
         .matches(/^\s*(?:\+?(\d{1,3}))?[-. (]*(\d{3})[-. )]*(\d{3})[-. ]*(\d{4})(?: *x(\d+))?\s*$/, 'Invalid phone number format')
-        .required('Required'),
+        .required('Number is required'),
     message: Yup.string()
-        .required('Required')
+        .required(' Message is required')
 
 
 
@@ -44,68 +44,76 @@ const ContactComponents = () => {
         >
             {({ errors, touched }) => (
                 <Form>
-                    <div className="forms">
-                        <div className="ContactText">
-                            <div className="ContactTextOne">
-                                <div className="callContact">
-                                    <div className="ContactIcon">
-                                        <IoCallOutline />
+                    <div className="ContactPage">
+                        <div className="contact">
+                            <p>Home/<strong>Contact</strong></p>
+                        </div>
+                        <div className="forms">
+                            <div className="ContactText">
+                                <div className="ContactTextOne">
+                                    <div className="callContact">
+                                        <div className="ContactIcon">
+                                            <IoCallOutline />
+                                        </div>
+                                        <div className="CallOne">
+                                            <h2>Call To Us</h2>
+                                        </div>
+                                    </div><br />
+                                    <div className="TextOne">
+                                        <p>We are available 24/7, 7 days a week.</p><br />
+                                        <p>Phone: +8801611112222</p>
                                     </div>
-                                    <div className="CallOne">
-                                        <h2>Call To Us</h2>
-                                    </div>
-                                </div><br />
-                                <div className="TextOne">
-                                    <p>We are available 24/7, 7 days a week.</p><br />
-                                    <p>Phone: +8801611112222</p>
                                 </div>
-                            </div>
-                            <div className="ContactTextTwo">
-                                <div className="callContact">
-                                    <div className="ContactIcon">
-                                        <CiMail />
+                                <div className="ContactTextTwo">
+                                    <div className="callContact">
+                                        <div className="ContactIcon">
+                                            <CiMail />
+                                        </div>
+                                        <div className="CallOne">
+                                            <h2>Write To US</h2>
+                                        </div>
                                     </div>
-                                    <div className="CallOne">
-                                        <h2>Write To US</h2>
-                                    </div>
-                                     </div>
                                     <div className="TextOne">
                                         <p>Fill out our form and we will contact <br /> you within 24 hours.</p><br />
                                         <p>Emails: customer@exclusive.com</p><br />
                                         <p>Emails: support@exclusive.com</p><br />
 
                                     </div>
-                               
+
+                                </div>
+
+
                             </div>
 
+                            <div className="RowContact">
+                                <div className="row1">
+                                    <div className="col-12 col-md-12 col-lg-4"><div className="from-group"><Field name="name" type="text" placeholder="your name*" />{errors.name && touched.name ? (
+                                        <div style={{ color: 'red', fontSize: "18px" }}>{errors.name}</div>
+                                    ) : null}</div></div>
+                                    <div className='col-12 col-md-12 col-lg-4'><div className="from-group"><Field name="email" type="email" placeholder="your email*" />
+                                        {errors.email && touched.email ? (
+                                            <div style={{ color: 'red', fontSize: "18px" }}>{errors.email}</div>
+                                        ) : null}</div></div>
+                                    <div className="col-12 col-md-12 col-lg-4"><div className="from-group"><Field name="number" type="tel" placeholder="your number*" />{errors.number && touched.number ? (
+                                        <div style={{ color: 'red', fontSize: "18px" }}>{errors.number}</div>
+                                    ) : null}</div></div>
 
+                                </div>
+                                <div className="row2">
+                                    <div className="col-12 col-md-12 col-lg-12">
+                                        <div className="from-message"><Field name="message" type="text" placeholder="Your Massage" />{errors.message && touched.message ? (
+                                            <div style={{ color: 'red', fontSize: "18px" }}>{errors.message}</div>
+                                        ) : null}</div></div> </div>
+
+                                <div className='butt'>
+                                    <div className='btn'>
+                                        <button type="submit" className='submitt' >
+                                            Send Message
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-
-
-                        <div className="row">
-                            <div className="col-12 col-md-12 col-lg-4"><div className="from-group"><Field name="name" type="text" placeholder="your name*" />{errors.name && touched.name ? (
-                                <div>{errors.name}</div>
-                            ) : null}</div></div>
-                            <div className='col-12 col-md-12 col-lg-4'><div className="from-group"><Field name="email" type="email" placeholder="your email*" />
-                                {errors.email && touched.email ? (
-                                    <div>{errors.email}</div>
-                                ) : null}</div></div>
-                            <div className="col-12 col-md-12 col-lg-4"><div className="from-group"><Field name="number" type="tel" placeholder="your number*" />{errors.number && touched.number ? (
-                                <div>{errors.number}</div>
-                            ) : null}</div></div>
-
-                        </div>
-                        <div className="row">
-                            <div className="col-12 col-md-12 col-lg-12">
-                                <div className="from-message"><Field name="message" type="text" placeholder="Your Massage" />{errors.message && touched.message ? (
-                                    <div>{errors.message}</div>
-                                ) : null}</div></div> </div>
-
-                        <div className='butt'>
-                            <div className='btn'>
-                                <button type="submit" >
-                                    Send Massage
-                                </button></div></div>
                     </div>
                 </Form>
             )}

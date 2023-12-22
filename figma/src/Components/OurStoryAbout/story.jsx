@@ -4,6 +4,9 @@ const Story = () => {
     return (
         <>
             <section id='OurStoryAbout'>
+                <div className="StoryText">
+                   <p>Home/<strong>About</strong></p>
+                </div>
                 <div className="OurStoryArea">
                     <div className="OurStoryLeft">
                         <div className="OurStoryText">

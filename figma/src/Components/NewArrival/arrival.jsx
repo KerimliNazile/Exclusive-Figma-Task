@@ -3,15 +3,15 @@ import './arrival.scss'
 const Arrival = () => {
     return (
         <>
-        <div className='FeaturedText'>
-            <div className='featured'>
-        <div></div>
-            <h4>Featured</h4>
+            <div className="browseCategoryUpBox">
+                <div className="todaysText">
+                    <div className='normalBox'></div>
+                    <p>Featured</p>
+                </div>
+                <div className='salesTimer'>
+                    <h1>New Arrival</h1>
+                </div>
             </div>
-        </div><br />
-        <div className='NewArrivalText'>
-            <h1>New Arrival </h1>
-        </div>
             <div className='NewArrivalArea'>
                 <div className='NewArrivalBox1'>
                     <img src="../../../image/ps5-slim-goedkope-playstation_large 1.png" alt="" />
@@ -45,7 +45,7 @@ const Arrival = () => {
                             <div className='ArrivalText3'>
                                 <h2>Perfume</h2>
                                 <p> GUCCI INTENSE OUD EDP  </p><br />
-                                  
+
                                 <a href="shop">Shop Now</a>
                             </div>
                         </div>

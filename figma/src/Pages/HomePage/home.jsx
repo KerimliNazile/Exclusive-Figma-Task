@@ -9,6 +9,7 @@ import Music from '../../Components/MusicExperience/music'
 import TodaysFetch from '../../Components/Todays'
 import MonthFetch from '../../Components/Month'
 import OurProducts from '../../Components/OurProducts'
+import OurProductsTwo from '../../Components/OurProductsTwo'
 
 
 const Home = () => {
@@ -23,6 +24,7 @@ const Home = () => {
       <TodaysFetch/>
       <Music/>
       <OurProducts/>
+      <OurProductsTwo/>
       <Arrival />
       <FastAndFree />
     

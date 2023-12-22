@@ -24,7 +24,7 @@ const Card = ({ id, image, name, price, noprice, raiting }) => {
   console.log(id);
   return (
 
-    <div>
+   
       <div className='card0'>
         <div className='CardIcon'>
           <div ><FaHeart /></div>
@@ -47,7 +47,7 @@ const Card = ({ id, image, name, price, noprice, raiting }) => {
           </div>
         </div>
       </div>
-    </div>
+
 
   )
 }

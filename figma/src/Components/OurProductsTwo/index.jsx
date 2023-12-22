@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from 'react'
 import Card from '../Card'
-import './index.scss'
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 
-const OurProducts = () => {
+const OurProductsTwo = () => {
     const [products, setProducts] = useState([])
     const [loadind, setLoadind] = useState(true)
     async function getProducts() {
-        const data = await fetch("http://localhost:3000/explore")
+        const data = await fetch("http://localhost:3000/exploretwo")
         const res = await data.json()
         setProducts(res)
         setLoadind(false)
@@ -22,15 +22,7 @@ const OurProducts = () => {
 
     return (
         <>
-            <div className="browseCategoryUpBox">
-                <div className="todaysText">
-                    <div className='normalBox'></div>
-                    <p>Our Products</p>
-                </div>
-                <div className='salesTimer'>
-                    <h1>Explore Our Products</h1>
-                </div>
-            </div>
+
             {loadind ? (
                 <p>Loading...</p>
             ) : (
@@ -47,12 +39,14 @@ const OurProducts = () => {
 
                     {products.map((product, index) => (
                         <SwiperSlide >
-                            <Card key={index} id={product.id} image={product.image} name={product.name} price={product.price} noprice={product.noprice} raiting={product.raiting} />
+                             <Card key={index} id={product.id} image={product.image} name={product.name} price={product.price} noprice={product.noprice} raiting={product.raiting} />
                         </SwiperSlide>
 
                     ))}
 
-
+                    <div className='BtnMonth'>
+                        <button className='btnn'>View All Products</button>
+                    </div>
 
                 </Swiper>
 
@@ -63,4 +57,4 @@ const OurProducts = () => {
     )
 }
 
-export default OurProducts
+export default OurProductsTwo

@@ -42,6 +42,7 @@
                 margin-top: 20px;
 
 
+
                 .deliveryyIcon {
                     font-size: 35px;
                     margin-top: 30px;
@@ -54,10 +55,7 @@
                     margin-bottom: 30px;
                     color: white;
 
-                    &:hover {
-                        color: black;
-                        background-color: white;
-                    }
+
 
                     .TbTruckk {
                         margin-top: 6px;
@@ -67,6 +65,16 @@
 
                 }
             }
+        }
+
+        .deliveryyBox:hover .deliveryygreyIcon {
+            background-color: rgb(205, 226, 247);
+
+        }
+
+        .deliveryyBox:hover .deliveryyIcon {
+            background-color: white;
+            color: black;
         }
     }
 }
