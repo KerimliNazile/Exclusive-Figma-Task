@@ -6,7 +6,7 @@ function LogIn() {
   return (
     <section id='logIn'>
     <div className="signUpLeftBox">
-        <img src="https://s3-alpha-sig.figma.com/img/75f3/94c0/a1c7dc5b68a42239311e510f54d8cd59?Expires=1703462400&Signature=nKEwCyRvEmZm6HugUvka3eT5IFLfeK8SyfvoInRtqA9ATUWRc-yt7P0fH75hfO-xPHOeOtuH72PmYjB4FkSxPIbYxDbsGA6ShmFfmhqSPUuiBFpzHS7bYKzUkP3tw5GUMOgYnDCKnw8PMKtJAWhcdnsQYjr3T1JHZ0ZUVsseQeCdFzIM7xVfjfnAEQ9t8nFILMB6~ftbsDW0d-lp-V1qdKtyPFmtYA2ykoIdXEDTJlVTmAY-O6F2csHFS81CHf9IPToNfLx0zsdHu8hsXqdBmnAQ334~tTrwmnJfUt8jLghL3gORo4O7V0IOxp7Yb~rgUfYIfJzwPmzYCY3abxN5jg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
+        <img src="https://s3-alpha-sig.figma.com/img/75f3/94c0/a1c7dc5b68a42239311e510f54d8cd59?Expires=1704672000&Signature=puJ2THPnlosmoWI5Do6clGIYMQPI7dej~6igkyjZ~Rpoirl8O~XvX-z55SO8KvNDuIAu5T5eIQIo6A61U~lKONo2zBKsrO47WEFRSaKNhMt8v1SY7a4xHA5kTtGghMJSOBUuTHd4FFaB2TD8HWED5mlOg2aSs2xN~k5erIMfJyVEld0REQR~3rWzdwxEp2sojCrAIQBtLdh4IoM8vmdyEgR1XFhN4Esbx-tyR~oO57DgThSHTGjZ1i~uvklB7I8nLbUjdh5bkGzwpmY0pd2szB~REf7Fi6M6z5wx01PfHX3lioYMPF97N5MMLkCJd1lcWy~trq2qzO22rjwvL1IS1A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
       </div>
       <div className="signUpRightBox">
         <div className="logUpBox">
